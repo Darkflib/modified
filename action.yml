@@ -46,5 +46,5 @@ outputs:
     description: |
       a json encoded list of all files modified between base and head
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
